@@ -1,0 +1,28 @@
+html{background-color: #d4d4d4; }
+body{text-align: center;}
+h1{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #f9f9f9;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #555;
+  text-shadow: 2px 2px 4px #333;
+  margin-bottom:10px;
+  line-height: 30px;
+}
+#chart{margin: 0 3% 0 5%;}
+rect.bordered {
+  stroke: #777;
+  stroke-width:1px;
+}
+rect.bordered:hover {
+  stroke: #555;
+  stroke-width:2px;
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+  fill: #444;
+}
+
+.dataset-button{margin-right:10px; font-weight: bold;padding: 5px; color: #555; cursor: pointer;}
+.dataset-button:focus{color: rgb(239, 101, 72);}
